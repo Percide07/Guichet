@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1300px;
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.pic{
+    width: 28px;
+    height: 28px;
+}
+.btn1{
+    width: 70px;
+    height: 30px;
+    background-color: #071A35;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn1 > img {
+    width: 20px;
+    height: 20px;
+}
+.submenu1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    height: 60px;
+}
+.link1 {
+    font-weight: bold;
+}
+.link2{
+    color: #5D5D5D;
+}
+.header2 > button {
+    width: 122px;
+    height: 38px;
+    background-color: #071A35;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.sec{
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    background-image: url(asset/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.subsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 450px;
+}
+.pic1{
+    width: 700px;
+    height: 400px;
+}
+.eclipse{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #5D5D5D;
+}
+.eclipse1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FF6633;
+}
+
+.arrow{
+    width: 117px;
+    height: 117px;
+    color: white;
+}
+.layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.layout2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+}
+hr {
+    
+    border: none;
+    border-top: 3px double black;
+    color: black;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 1000px;
+}
+
+hr::after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px; 
+}
+.row{
+    margin-top: 60px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+}
+.list{
+    width: 30px;
+    height: 30px;
+}
+.card1{
+    width: 300px;
+    height: 420px;
+    border: 1px #5D5D5D solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cardpict{
+    width: 300px;
+    height: 167px;
+    border-radius: 15px 15px 0 0;
+}
+.subcard1{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subcard2{
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subicon{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.cardpart1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    color: #5D5D5D;
+}
+.cardpart2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+}
+#marg1,#marg2  {
+    margin-top: 17px;
+}
+.cardpart3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+.cardpart4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 200px;
+    background-color: #E4E4E4;
+}
+.sub2{
+    height: 253px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.btn3{
+    width: 150px;
+    height: 30px;
+    background-color: #C4D3E8;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn4{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #8F8F8F;
+    border-radius: 5px;
+    background-color: white;;
+}
+.btn2{
+    width: 70px;
+    height: 30px;
+    background-color: #071A35;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.price{
+    font-size: 30px;
+}
+.cardpart3 > p {
+    color: #071A35;
+    font-weight: bold;
+}
+.subcard1 > p {
+    font-weight: bold;
+}
+.subcard2 > p {
+    font-weight: bold;
+}
+
+.text {
+    color: #5D5D5D;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: space-around;
+    width: 1300px;
+    
+}
+.displayCard{
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.pictA{
+    width: 50px;
+    height: 50px;
+}
+.displayCard2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dis1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.dis2{
+    color: #212529;
+    font-weight: bolder;
+}
+.dis3{
+    color: #7E7F81;
+    text-align: center;
+    width: 403px;
+    height: 32px;
+}
+.pay{
+    width: 250px;
+    height: 30px;
+}
+.social{
+    width: 20px;
+    height: 20px;
+}
+footer{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer1{
+    width: 457px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.part2{
+    width: 685px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.part3{
+    display: flex;
+    flex-direction: row;
+    height: 190px;
+}
+.footer2{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer3{
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F3F3F3;
+
+}
+.footer2 > p {
+    color: #0A3454;
+}
+select{
+    border:none;
+    border-radius:5px;
+    width: 427px;
+    height: 45px;
+    background-color: #8C8C8C;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+select:focus{
+    outline:none;
+}
+
+option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75px;
+}
+.footer2{
+}
+ul {
+    list-style-type: none;
+}
+.thirdL{
+    margin-left: 30px;
+    height: 120px;
+}
+li{
+    color: #444444;
+}
+.secondL{
+    margin-left: 100px;
+    height: 170px;
+}
+.newsletter{
+    border: solid 1px #AAAAAA;
+    width: 655px;
+    height: 143px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.guichetL{
+    width: 170px;
+    height: 39px;
+}
+.guichetApp{
+    width: 199px;
+    height: 45px;
+}
+input{
+    border: none;
+    height: 40px;
+    width: 519px;
+    margin-left: 10px;
+}
+.news1{
+    margin-left: 10px;
+    color: #444444;
+    font-size: medium;
+}
+.btn5{
+    width: 70px;
+    height: 40px;
+    background-color: #071A35;
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.news2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.firstL,.secondL,.thirdL{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#newsletter1{
+    font-size: x-large;
+}
+.text1{
+    font-weight: bold;
+    color: #444444;
+}
+label{
+    font-weight: lighter;
+    color: #444444;
+}
