@@ -367,7 +367,7 @@ footer{
     height: 190px;
 }
 .footer2{
-    height: 50px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -412,8 +412,7 @@ option{
     justify-content: space-between;
     height: 75px;
 }
-.footer2{
-}
+
 ul {
     list-style-type: none;
 }
